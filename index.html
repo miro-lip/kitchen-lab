@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akcesoria Kuchenne</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold text-green-600">KuchniaPro</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#produkty" class="hover:text-green-600">Produkty</a>
+        <a href="#kategorie" class="hover:text-green-600">Kategorie</a>
+        <a href="#opinie" class="hover:text-green-600">Opinie</a>
+        <a href="#kontakt" class="hover:text-green-600">Kontakt</a>
+      </nav>
+      <button class="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition">Koszyk</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-green-100 py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Nowoczesne akcesoria kuchenne</h2>
+    <p class="text-lg mb-6">Ułatw sobie gotowanie i ciesz się jakością.</p>
+    <a href="#produkty" class="bg-green-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-green-700 transition">Zobacz ofertę</a>
+  </section>
+
+  <!-- Kategorie -->
+  <section id="kategorie" class="max-w-7xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-semibold text-center mb-10">Kategorie</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?knife,kitchen" alt="Noże" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold">Noże</h4>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?pots,pans" alt="Garnki" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold">Garnki</h4>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?spices,containers" alt="Akcesoria" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold">Akcesoria</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produkty -->
+  <section id="produkty" class="bg-gray-100 py-16 px-4">
+    <h3 class="text-3xl font-semibold text-center mb-10">Polecane Produkty</h3>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?chef,knife" alt="Nóż szefa" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold mb-2">Nóż Szefa</h4>
+        <p class="text-green-600 font-bold mb-4">129 zł</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition">Dodaj do koszyka</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?pan,cooking" alt="Patelnia" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold mb-2">Patelnia Granitowa</h4>
+        <p class="text-green-600 font-bold mb-4">89 zł</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition">Dodaj do koszyka</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/300x200/?cuttingboard,kitchen" alt="Deska do krojenia" class="mx-auto rounded-xl mb-4">
+        <h4 class="text-xl font-semibold mb-2">Deska Bambusowa</h4>
+        <p class="text-green-600 font-bold mb-4">49 zł</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition">Dodaj do koszyka</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opinie -->
+  <section id="opinie" class="max-w-7xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-semibold text-center mb-10">Opinie Klientów</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <p class="italic mb-4">„Świetna jakość noży, gotowanie stało się przyjemnością!”</p>
+        <p class="font-bold">– Anna K.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <p class="italic mb-4">„Patelnia granitowa to strzał w dziesiątkę, nic się nie przypala.”</p>
+        <p class="font-bold">– Marek P.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <p class="italic mb-4">„Szybka dostawa i super kontakt ze sklepem.”</p>
+        <p class="font-bold">– Katarzyna L.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="max-w-4xl mx-auto py-16 px-4 text-center">
+    <h3 class="text-3xl font-semibold mb-6">Skontaktuj się z nami</h3>
+    <p class="mb-6">Masz pytania? Napisz do nas, a pomożemy Ci wybrać najlepsze akcesoria do Twojej kuchni.</p>
+    <a href="mailto:kontakt@kuchniapro.pl" class="bg-green-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-green-700 transition">Napisz do nas</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 text-center py-6">
+    <p>&copy; 2025 KuchniaPro. Wszystkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
